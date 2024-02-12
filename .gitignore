@@ -1,3 +1,5 @@
 /site
 /build
 /dist
+
+/.venv
