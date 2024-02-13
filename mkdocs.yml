@@ -11,6 +11,8 @@ nav:
 
 plugins:
   - search
+  - tags
+
 markdown_extensions:
   - toc:
       permalink: true
