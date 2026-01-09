@@ -17,7 +17,8 @@ plugins:
   - tags:
       # tags_file: 'tags.md'
   - plantuml:
-      puml_url: https://www.plantuml.com/plantuml/
+      # puml_url: https://www.plantuml.com/plantuml/
+      puml_url: http://127.0.0.1:8080
       puml_keyword: plantuml
 
 markdown_extensions:
