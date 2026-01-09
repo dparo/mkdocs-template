@@ -18,6 +18,7 @@ plugins:
       # tags_file: 'tags.md'
   - plantuml:
       puml_url: https://www.plantuml.com/plantuml/
+      puml_keyword: plantuml
 
 markdown_extensions:
   - toc:

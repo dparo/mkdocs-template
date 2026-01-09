@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  plantuml:
+    image: plantuml/plantuml-server:jetty
+    container_name: plantuml-server
+    ports:
+      - "8080:8080/tcp"
+    environment:
+      - BASE_URL=plantuml
+
