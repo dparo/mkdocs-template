@@ -1,17 +1,15 @@
-[tool.poetry]
+[project]
 name = "mkdocs-template"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.12,<4"
 readme = "README.md"
-packages = []
-
-[tool.poetry.dependencies]
-python = "^3.12"
-mkdocs = "^1.5.3"
-mkdocs-material = "^9.5.9"
-
+dependencies = [
+    "mkdocs>=1.5.3,<2",
+    "mkdocs-material>=9.5.9,<10",
+]
 
 [build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
